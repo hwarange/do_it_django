@@ -5,7 +5,7 @@ files:
       destination: /home/ubuntu/do_it_django
     - source: /docker-compose.yaml
       destination: /home/ubuntu/do_it_django
-    - source: /.env
+    - source: /.env.prod
       destination: /home/ubuntu/do_it_django
 file_exists_behavior: OVERWRITE
 
